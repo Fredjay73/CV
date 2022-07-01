@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Team Burton"
+		},
+		{
+			"path": "..\\Exo flex 1"
+		},
+		{
+			"path": "..\\Exo flex 2"
+		},
+		{
+			"path": "..\\CV FRED JANICOT"
+		},
+		{
+			"path": "..\\Excercie 3"
+		},
+		{
+			"path": "..\\Team Burton 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Team Burton"
+	}
+}

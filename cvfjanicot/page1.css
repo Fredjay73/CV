@@ -1,0 +1,116 @@
+@font-face {
+    font-family: AlamedaScript;
+    src: url("AlamedaScript_PERSONAL_USE_ONLY.otf") format('OpenType');
+    color: red;
+}
+
+@font-face {
+    font-family: Plavea;
+    src: url("./Plavea\ -\ Solid.otf") format('OpenType');
+    color: rgb(254, 252, 252);
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+header{ height: 150px; 
+        margin-top: 10px;
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+}
+
+#portrait{
+    align-self: flex-end;
+    flex-direction: column-reverse;
+}
+
+section{ 
+    min-height: 400px; 
+    padding-top: 10px;
+}
+
+footer{ height: 270px; 
+    font-size: 10px; 
+    padding-top: 20px;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+body{
+        font-family: AlamedaScript, sans-serif;
+        color: rgb(251, 251, 251);
+        background: url('./IMG_20220612_113825.jpg') no-repeat center;  
+        background-size: auto; 
+        margin: 0;
+    }
+    a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    
+    a{
+        color: rgb(217, 93, 192);
+        text-decoration: none;
+        font-size: 60px;
+    }
+    
+
+#lienprofil{
+    font-size: 10;
+}
+
+p{
+    color: rgb(255, 253, 253);
+    font-size: 2em;
+    font-family: 'Plavea', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#coordonnées{ min-height: 500px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 15px;
+    margin-left: 35%;
+}
+
+#photoloisirs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.loisirs{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#texteprojet{
+    min-height: 350px;
+    text-align: justify;
+    position: relative;
+    padding: 40px;
+    top: 15px;
+    margin-left: 35%;
+}
+
+
+
+
+
+
+
+
+
+

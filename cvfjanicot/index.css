@@ -1,0 +1,119 @@
+@font-face {
+    font-family: AlamedaScript;
+    src: url("AlamedaScript_PERSONAL_USE_ONLY.otf") format('OpenType');
+    color: red;
+}
+
+@font-face {
+    font-family: Plavea;
+    src: url("./Plavea\ -\ Solid.otf") format('OpenType');
+    color: rgb(254, 252, 252);
+}
+
+.index{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    font-family: AlamedaScript, sans-serif;
+    color: rgb(251, 251, 251);
+    background: url('./IMG_20220612_113825.jpg') no-repeat center;  
+    background-size: auto; 
+    margin: 0;
+}
+
+
+header{ height: 300px; 
+        margin-top: 10px;
+        position: relative;
+        top: 0;
+}
+
+#titremagazine{
+    font-size: 11em;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    margin-left: 30%;
+}
+
+#debutant{
+    font-size: 4em;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 15px;
+    margin-left: 70%;
+}
+section{ 
+        min-height: 400px; 
+        padding-top: 10px;
+}
+
+footer{ font-size: 1em;    
+    position: relative;
+    bottom: 0;    
+    transform: translateX(-50%);
+    display: flex;      
+    margin-left: 55%;     
+    }
+
+footer p{
+    margin: 10px;
+}
+
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(217, 93, 192);
+    text-decoration: none;
+    font-size: 60px;
+}
+
+p{
+    color: rgb(255, 253, 253);
+    font-size: 2.5em;
+    font-family: 'Plavea', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+#Page1{
+    position: relative;
+    padding-top: 30px;
+    justify-content: flex-start;
+}
+
+#Page2{
+    position: relative;
+    margin-left: 70%;
+} 
+
+#Page3{
+    position: relative;
+    margin-left: 80%;
+}
+
+#Page4{
+    position: relative;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+
+
+
+
+
+
+
+

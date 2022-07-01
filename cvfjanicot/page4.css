@@ -1,0 +1,89 @@
+@font-face {
+    font-family: AlamedaScript;
+    src: url("AlamedaScript_PERSONAL_USE_ONLY.otf") format('OpenType');
+    color: red;
+}
+
+@font-face {
+    font-family: Plavea;
+    src: url("./Plavea\ -\ Solid.otf") format('OpenType');
+    color: rgb(254, 252, 252);
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+header{ 
+        height: 350px; 
+        padding-top: 10px;
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+}
+
+#carousel{
+    font-family: AlamedaScript, sans-serif;
+    color: rgb(251, 251, 251);
+    margin-left: 30%;
+    padding-top: 100px;
+    max-width: 1400px;
+}
+
+.imgtemoins{
+    margin-left: 10%;
+    width: 80%;
+    /* height: 70%; */
+}
+
+#espace{
+    position: relative;
+    text-align: center;    
+    font-size: 3em;
+}
+
+
+footer{ font-size: 15px;    
+    position: absolute;
+    bottom: 0;    
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;              
+    }
+
+footer p{
+    margin: 10px;
+}
+
+body{
+        font-family: AlamedaScript, sans-serif;
+        color: rgb(251, 251, 251);
+        background: url('./IMG_20220612_113825.jpg') no-repeat center;  
+        background-size: auto; 
+        margin: 0;
+    }
+a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    
+a{
+        color: rgb(217, 93, 192);
+        text-decoration: none;
+        font-size: 60px;
+    }
+
+p{
+    color: rgb(255, 253, 253);
+    font-size: 1.5em;
+    font-family: 'Plavea', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}

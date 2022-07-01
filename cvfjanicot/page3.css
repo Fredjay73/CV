@@ -1,0 +1,126 @@
+@font-face {
+    font-family: AlamedaScript;
+    src: url("AlamedaScript_PERSONAL_USE_ONLY.otf") format('OpenType');
+    color: red;
+}
+
+@font-face {
+    font-family: Plavea;
+    src: url("./Plavea\ -\ Solid.otf") format('OpenType');
+    color: rgb(254, 252, 252);
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+header{ 
+        height: 150px; 
+        margin-top: 10px;
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+}
+
+#portrait{
+    align-self: flex-end;
+    flex-direction: column-reverse;
+}
+
+section{ 
+    min-height: 400px; 
+    padding-top: 10px;
+}
+
+footer{ font-size: 15px;    
+    position: relative;
+    bottom: 0;    
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;              
+    }
+
+footer p{
+    margin: 10px;
+}
+
+body{
+        font-family: AlamedaScript, sans-serif;
+        color: rgb(251, 251, 251);
+        background: url('./IMG_20220612_113825.jpg') no-repeat center;  
+        background-size: auto; 
+        margin: 0;
+    }
+a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    
+a{
+        color: rgb(217, 93, 192);
+        text-decoration: none;
+        font-size: 60px;
+    }
+    
+
+#lienprofil{
+    font-size: 10;
+}
+
+.carla{
+    font-family: AlamedaScript;
+    font-size: 1em;
+}
+
+p{
+    color: rgb(255, 253, 253);
+    font-size: 2em;
+    font-family: 'Plavea', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.thumbnail{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 15%;
+    width: 60%;
+}
+
+.titrecompetences{
+    margin-left: 50%;
+    position: relative;
+    padding-top: 40px;
+}
+
+.photogestiondeprojet{
+    border-radius: 25%;
+}
+
+h3{
+    text-align: center;
+    font-family: Plavea;
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+}
+
+#experiences{
+    position: relative;
+    margin-left: 50%;
+}
+
+#experiences2{
+    min-height: 150px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+
